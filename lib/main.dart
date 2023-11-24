@@ -18,8 +18,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true,
       ),
-      home: SplashScreen(),
-      routes: {'category-screen': (context) => CategoryScreen()},
+      home: const SplashScreen(),
+      routes: {'category-screen': (context) => const CategoryScreen()},
     );
   }
 }

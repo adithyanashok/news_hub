@@ -77,7 +77,6 @@ class _HomeScreenState extends State<HomeScreen> {
               if (FilterList.bbcSport == value) {
                 name = 'bbc-sport';
               }
-
               // Update the selected menu item
               setState(() {
                 selectedMenu = value;
